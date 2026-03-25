@@ -3,7 +3,7 @@
 # Maintainer: jscaffidi <jscaffidi@qnx.com>
 pkgname=libdecor
 pkgver=0.2.4
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="Client-side decorations library for Wayland clients"
 url="https://gitlab.freedesktop.org/libdecor/libdecor"
 license="MIT"
@@ -43,7 +43,6 @@ package() {
 
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 f9b8a1af992132e150571d2df2d6dab1e0a5ed8f7608109111a6339aca3ae395ffa5d962f079b0a3725a4bec3f86d8386720cf8c60e65dc980d9b186c7ebe3fb  libdecor-0.2.4.tar.gz
 c68f89e75ac175cd33cd553bfc5718d0f77d2ce6e91430abec0e47024d957865e00b77a763c30473ab5209a0b4b7b3982a842fa1403a3506ce507458b271cafa  input.h
